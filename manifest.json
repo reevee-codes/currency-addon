@@ -1,10 +1,10 @@
 {
-	"manifest_version": 2,
-    "name": "money",
+	"manifest_version": 3,
+    "name": "SEK/PLN currency addon",
     "version": "1.0.0",
-    "description": "fantastic app",
+    "description": "As the title says, this addon shows the current SEK/PLN exchange rate",
     "author": "x y",
-	"browser_action": {
+	"action": {
      "default_icon": "images/bird.png",
 	 "default_popup": "index.html",
      "default_title": "money"
