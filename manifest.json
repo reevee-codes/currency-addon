@@ -4,6 +4,12 @@
     "version": "1.0.0",
     "description": "As the title says, this addon shows the current SEK/PLN exchange rate",
     "author": "x y",
+    "icons": {
+        "16": "images/bird16.png",
+        "32": "images/bird32.png",
+        "48": "images/bird48.png",
+        "128": "images/bird128.png"
+    },
 	"action": {
      "default_icon": "images/bird.png",
 	 "default_popup": "index.html",

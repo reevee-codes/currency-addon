@@ -1,6 +1,6 @@
 async function fetchData() {
     try {
-        const response = await fetch("http://api.nbp.pl/api/exchangerates/rates/c/sek/");
+        const response = await fetch("https://api.nbp.pl/api/exchangerates/rates/c/sek/");
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
